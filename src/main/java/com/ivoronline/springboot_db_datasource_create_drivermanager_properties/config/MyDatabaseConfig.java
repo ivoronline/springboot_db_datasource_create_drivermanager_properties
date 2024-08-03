@@ -5,17 +5,13 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.DependsOn;
-import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Component;
-
 import javax.sql.DataSource;
 
 @Configuration
 public class MyDatabaseConfig {
 
   //PROPERTIES
-  @Autowired DataSourceProperties dataSourceProperties;
+  //@Autowired DataSourceProperties dataSourceProperties;
 
   //=========================================================================================================
   // DATA SOURCE PROPERTIES
